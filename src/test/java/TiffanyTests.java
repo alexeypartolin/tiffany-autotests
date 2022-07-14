@@ -15,6 +15,7 @@ import pages.MainPage;
 
 import java.util.stream.Stream;
 
+import static com.codeborne.selenide.Condition.exist;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Configuration.baseUrl;
 import static com.codeborne.selenide.Selectors.byText;
@@ -74,7 +75,8 @@ public class TiffanyTests extends TestBase {
             });
 
             step(("Check h1"), () -> {
-                $("h1").scrollTo().shouldHave(Condition.text("Charms"));
+                sleep(2000);
+                $$("h1").findBy(text("Charms")).shouldBe(exist);
             });
     }
 
