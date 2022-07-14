@@ -11,6 +11,7 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Configuration.baseUrl;
 import static com.codeborne.selenide.Selenide.*;
 
+@Disabled
 @DisplayName("UI-parametrized autotests for tiffany.com")
 public class StoreLocatorParametrizedTests extends TestBase {
     public static final String CITY = "Vienna";

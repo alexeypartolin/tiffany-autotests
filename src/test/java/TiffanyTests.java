@@ -26,6 +26,7 @@ import static io.qameta.allure.Allure.step;
 
 @DisplayName("UI-autotests for tiffany.com with POM")
 public class TiffanyTests extends TestBase {
+    @Disabled
     @Test
     @Owner("alexeypartolin")
     @DisplayName("Check the default sort on a product list page")
@@ -60,6 +61,7 @@ public class TiffanyTests extends TestBase {
             });
         }
 
+        @Disabled
         @Test
         @Owner("alexeypartolin")
         @DisplayName("Check that product search function works ")
@@ -80,6 +82,7 @@ public class TiffanyTests extends TestBase {
             });
     }
 
+    @Disabled
     @Test
     @Owner("alexeypartolin")
     @DisplayName("Check redirect to local web-site version after location changed")
