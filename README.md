@@ -129,8 +129,5 @@ test
 ## <img width="4%" title="Selenoid" src="images/logo/Selenoid.svg"> Пример запуска теста в Selenoid
 
 > К каждому тесту в отчете прилагается видео. Одно из таких видео представлено ниже.
-<p align="center">
-  <img title="Selenoid Video" src="images/gif/selenoid_video.gif">
-</p>
 
 ![Video](https://github.com/alexeypartolin/tiffany-autotests/blob/main/images/gif/selenoid-video.gif)
